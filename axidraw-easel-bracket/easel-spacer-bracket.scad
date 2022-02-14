@@ -1,5 +1,5 @@
 spacerThickness = 8;
-frontSpacerHeight = 12;
+frontSpacerHeight = 10;
 
 module easel_Spacer(spacerThickness, frontSpacerHeight) {
     module frontSpacerBase (width, height, offsetFromBackStopper) {
