@@ -3,9 +3,9 @@ frontSpacerHeight = 12;
 
 module easel_Spacer(spacerThickness, frontSpacerHeight) {
     module frontSpacerBase (width, height, offsetFromBackStopper) {
-        notchRadius = 2;
+        notchRadius = 1;
         notchDiameter = notchRadius * 2;
-        notchCenterDistanceFromBottom = 5; // this fits underneath the easel
+        notchCenterDistanceFromBottom = 4; // this fits underneath the easel
         legLength = 5; // length of legs under and over the easel surface
         $fn = 90;
         
