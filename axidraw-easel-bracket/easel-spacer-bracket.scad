@@ -1,4 +1,4 @@
-spacerThickness = 8;
+spacerThickness = 10;
 frontSpacerHeight = 10;
 
 module easel_Spacer(spacerThickness, frontSpacerHeight) {
@@ -38,7 +38,7 @@ module easel_Spacer(spacerThickness, frontSpacerHeight) {
     
     module frontStopper(width, height, frontstopperDistanceFromBackStopper) {
         noseWidth = 3.45;
-        noseHeight = 4;
+        noseHeight = 3.9;
         noseOffset = 2.5;
         
         translate([frontstopperDistanceFromBackStopper, 0, 0]) {
@@ -73,11 +73,11 @@ module easel_Spacer(spacerThickness, frontSpacerHeight) {
 
     // put everything together
     union() {
-        wholeSpacerLength = 96; // that's the optimal length. Don't change
-        backSpacerHeight = 6.8; // height of plotter. Don't change
+        wholeSpacerLength = 88; // that's the optimal length. Don't change
+        backSpacerHeight = 6.0; // height of plotter. Don't change
 
         frontStopperWidth = 5;
-        frontStopperHeight = 19;
+        frontStopperHeight = 18.8;
         backStopperWidth = 5;
         backStopperHeight = 23;
         frontstopperDistanceFromBackStopper = 60; // this is the width of the plotter
